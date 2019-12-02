@@ -20,7 +20,7 @@ const App = () => {
             <Route exact path='/portfolio'>
               <About />
             </Route>
-            <Route exact path='/projects'>
+            <Route exact path='/portfolio/projects'>
               <Projects />
             </Route>
             <Route component={NotFound} />
