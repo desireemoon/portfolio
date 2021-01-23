@@ -11,7 +11,7 @@ const Header = (props) => {
             </div>
             <div className="nav">
                 <div className="nav-button ">
-                    <Link onClick={() => { window.scrollTo(0, 0) }} className="link" to="/portfolio">About</Link>
+                    <Link onClick={() => { window.scrollTo(0, 0) }} className="link" to="/portfolio">About Me</Link>
                 </div>
                 <div className="nav-button">
                     <Link onClick={() => { window.scrollTo(0, 0) }} className="link" to="/portfolio/projects">Projects</Link>
