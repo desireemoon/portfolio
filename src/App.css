@@ -35,6 +35,8 @@ body {
 h1 {
   font-size: 35px;
 }
+
+
 h2 {
   font-size: 25px;
   text-align: center;
@@ -120,6 +122,7 @@ a {
   border-radius: 20px;
 }
 
+
 .bio {
   margin: 40px;
   max-width: 800px;
@@ -127,9 +130,24 @@ a {
   background: rgba(255, 104, 107, 0.8);
   box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
   border-radius: 20px;
-  
 }
 
+@media only screen and (max-width: 450px) {
+  .about-me {
+    padding: 0px;
+    margin-top: 0;
+  }
+
+  .prof-pic {
+    max-width: 200px;
+    border-radius: 10px;
+  }
+
+  .bio {
+    margin: 10px;
+    padding: 0 10px;
+  }
+}
 /* Projects */
 
 .projects-container{

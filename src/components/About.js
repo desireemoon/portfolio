@@ -6,7 +6,7 @@ const About = () => {
             <h1 className="about-me">About Me</h1>
             <div className="about-info">
                 <div className="prof-pic">
-                    <img className="prof-pic" src="https://res.cloudinary.com/dsnhxcw0e/image/upload/v1575234478/Profile-photo_siez95.jpg" alt="Photo of Desiree" />
+                    <img className="prof-pic" src="https://res.cloudinary.com/dsnhxcw0e/image/upload/v1575234478/Profile-photo_siez95.jpg" alt="Desiree deWysocki" />
                 </div>
                 <div className="bio">
                     <p>As a creative and enthusiastic full stack developer, I'm passionate about building high-quality, user-friendly applications. My background in marketing provides me with unique insights into the customer experience, enabling me to design, develop, and present to a diverse audience. </p>
